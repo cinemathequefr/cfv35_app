@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "cfv35_app",
+  "description": "CFv35 prototyping",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "compression": "^1.7.1",
+    "dayjs": "^1.9.6",
+    "lodash": "^4.17.20",
     "polka": "next",
     "sirv": "^1.0.0"
   },
