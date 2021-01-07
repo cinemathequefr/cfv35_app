@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap");
-/* @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,600,600i,700,700i&display=swap"); */
-
 @import url("./fonts.css");
 
 html {
@@ -62,15 +60,16 @@ section {
 }
 
 .container {
-  margin: 0 auto;
+  position: relative;
+  margin: auto;
   padding: 0;
   width: 100%;
   min-width: 330px;
   max-width: 1380px;
-  box-sizing: content-box;
-  /* outline: solid 1px red; */
+  box-sizing: border-box;
 }
 
+/*
 .pin {
   display: block;
   position: absolute;
@@ -163,3 +162,4 @@ section {
   background-color: #709996;
   transition: 0.2s;
 }
+*/

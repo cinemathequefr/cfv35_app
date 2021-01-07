@@ -13,7 +13,8 @@
 
   .header > .container {
     position: relative;
-    height: 210px;
+    height: 180px;
+    /* height: 210px; */
   }
 
   input[type="text"] {
@@ -26,7 +27,6 @@
     color: #111;
     font-weight: 400;
     font-size: 16px;
-    /* min-width: 400px; */
   }
 
   .search-container {
@@ -43,7 +43,8 @@
     padding: 0;
     top: 83px;
     right: 0;
-    width: 476px;
+    width: 375px;
+    /* width: 476px; */
     transition: 0.2s;
   }
 
@@ -95,8 +96,10 @@
     margin: 0 0 0 -1px;
     padding: 8px 8px;
     font-family: Quicksandcf;
-    font-weight: 700;
-    font-size: 1rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    /* font-weight: 700; */
+    /* font-size: 1rem; */
     text-transform: uppercase;
     transition: 0.2s;
   }
