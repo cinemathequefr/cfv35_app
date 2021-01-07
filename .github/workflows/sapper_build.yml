@@ -11,7 +11,7 @@ jobs:
           build_mode: "export"
           args: "--legacy"
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@master
+        uses: peaceiris/actions-gh-pages@main
         with:
           publish_dir: __sapper__/export
           publish_branch: gh-pages
